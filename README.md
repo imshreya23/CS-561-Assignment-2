@@ -14,11 +14,14 @@ app.js file establishes localhost through port 3000 which gives the mock respons
      nvm install node <br />
      npm install express --save 
      
-3)Then run : node app.js
+3)Then run : node app2.js
 4)Then after connecting, copy public ip address and enter link like: http://3.83.54.103:3000/data/2.5/weather?q=Corvallis&appid=put_your_api_key_here
 
 ## Output:
 
 ![image](https://user-images.githubusercontent.com/68733686/149707200-5f4028eb-99b0-4e7d-ae84-b7bc2979e2e7.png)
 
-
+#### To check the output even after closing the instance window. 
+I used following commands: 
+npm i -g pm2 <br />
+pm2 start app2.js (app.js is my config file)
