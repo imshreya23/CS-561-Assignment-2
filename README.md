@@ -13,6 +13,7 @@ app.js file establishes localhost through port 3000 which gives the mock respons
      command -v nvm
      nvm install node
      npm install express --save
+     
 3)Then run : node app.js
 4)Then after connecting, copy public ip address and enter link like: http://3.83.54.103:3000/data/2.5/weather?q=Corvallis&appid=put_your_api_key_here
 
